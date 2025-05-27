@@ -12,6 +12,9 @@
       <Compile Update="Frontend\MainForm.cs">
         <SubType>Form</SubType>
       </Compile>
+      <Compile Update="Frontend\ResultsPreviewForm .cs">
+        <SubType>Form</SubType>
+      </Compile>
     </ItemGroup>
 
 </Project>

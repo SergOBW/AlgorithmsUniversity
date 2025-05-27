@@ -17,6 +17,7 @@ namespace LABA1_SortMethods.Frontend
         private RadioButton radioButtonSingle;
         private RadioButton radioButtonStats;
         private Button buttonRun;
+        private Button buttonBrowse;
         private Label labelMode;
         private Label labelSize;
         private Label labelMin;
@@ -34,42 +35,43 @@ namespace LABA1_SortMethods.Frontend
 
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-
             this.Text = "Сортировка массивов";
-            this.Size = new System.Drawing.Size(600, 500);
+            this.Size = new Size(600, 450);
 
-            labelMode = new Label { Text = "Режим работы:", Location = new System.Drawing.Point(20, 20) };
-            radioButtonSingle = new RadioButton { Text = "Одиночная сортировка", Location = new System.Drawing.Point(150, 20), Checked = true };
-            radioButtonStats = new RadioButton { Text = "Статистика", Location = new System.Drawing.Point(330, 20) };
+            labelMode = new Label { Text = "Режим работы:", Location = new Point(20, 20) };
+            radioButtonSingle = new RadioButton { Text = "Одиночная сортировка", Location = new Point(150, 20), Checked = true };
+            radioButtonStats = new RadioButton { Text = "Сбор статистики", Location = new Point(330, 20) };
             radioButtonSingle.CheckedChanged += ModeChanged;
             radioButtonStats.CheckedChanged += ModeChanged;
 
-            labelSize = new Label { Text = "Размер массива:", Location = new System.Drawing.Point(20, 60) };
-            textBoxArraySize = new TextBox { Location = new System.Drawing.Point(150, 60), Width = 100 };
+            labelSize = new Label { Text = "Размер массива:", Location = new Point(20, 60) };
+            textBoxArraySize = new TextBox { Location = new Point(150, 60), Width = 100 };
 
-            labelMin = new Label { Text = "Мин. значение:", Location = new System.Drawing.Point(20, 100) };
-            textBoxMinValue = new TextBox { Location = new System.Drawing.Point(150, 100), Width = 100 };
+            labelMin = new Label { Text = "Мин. значение:", Location = new Point(20, 100) };
+            textBoxMinValue = new TextBox { Location = new Point(150, 100), Width = 100 };
 
-            labelMax = new Label { Text = "Макс. значение:", Location = new System.Drawing.Point(20, 140) };
-            textBoxMaxValue = new TextBox { Location = new System.Drawing.Point(150, 140), Width = 100 };
+            labelMax = new Label { Text = "Макс. значение:", Location = new Point(20, 140) };
+            textBoxMaxValue = new TextBox { Location = new Point(150, 140), Width = 100 };
 
-            labelSortMethod = new Label { Text = "Метод сортировки:", Location = new System.Drawing.Point(20, 180) };
-            comboBoxSortMethod1 = new ComboBox { Location = new System.Drawing.Point(150, 180), Width = 200, DropDownStyle = ComboBoxStyle.DropDownList };
+            labelSortMethod = new Label { Text = "Метод сортировки:", Location = new Point(20, 180) };
+            comboBoxSortMethod1 = new ComboBox { Location = new Point(150, 180), Width = 200, DropDownStyle = ComboBoxStyle.DropDownList };
 
-            labelArrayType = new Label { Text = "Тип массива (для статистики):", Location = new System.Drawing.Point(20, 220) };
-            comboBoxArrayType = new ComboBox { Location = new System.Drawing.Point(230, 220), Width = 200, DropDownStyle = ComboBoxStyle.DropDownList };
+            labelArrayType = new Label { Text = "Тип массива:", Location = new Point(20, 220) };
+            comboBoxArrayType = new ComboBox { Location = new Point(150, 220), Width = 200, DropDownStyle = ComboBoxStyle.DropDownList };
 
-            labelStep = new Label { Text = "Шаг размера:", Location = new System.Drawing.Point(20, 260) };
-            textBoxStep = new TextBox { Location = new System.Drawing.Point(150, 260), Width = 100 };
+            labelStep = new Label { Text = "Шаг размера:", Location = new Point(20, 260) };
+            textBoxStep = new TextBox { Location = new Point(150, 260), Width = 100 };
 
-            labelOutput = new Label { Text = "Файл вывода:", Location = new System.Drawing.Point(20, 300) };
-            textBoxOutputFile = new TextBox { Location = new System.Drawing.Point(150, 300), Width = 200 };
+            labelOutput = new Label { Text = "Файл вывода:", Location = new Point(20, 300) };
+            textBoxOutputFile = new TextBox { Location = new Point(150, 300), Width = 200 };
+            
+            buttonBrowse = new Button { Text = "Обзор...", Location = new Point(360, 300), Width = 80 };
+            buttonBrowse.Click += ButtonBrowse_Click;
 
-            buttonRun = new Button { Text = "Выполнить", Location = new System.Drawing.Point(20, 350), Width = 120 };
+            buttonRun = new Button { Text = "Выполнить", Location = new Point(20, 350), Width = 120 };
             buttonRun.Click += ButtonRun_Click;
 
-            this.Controls.AddRange(new Control[] {
+            Controls.AddRange(new Control[] {
                 labelMode, radioButtonSingle, radioButtonStats,
                 labelSize, textBoxArraySize,
                 labelMin, textBoxMinValue,
@@ -78,7 +80,7 @@ namespace LABA1_SortMethods.Frontend
                 labelArrayType, comboBoxArrayType,
                 labelStep, textBoxStep,
                 labelOutput, textBoxOutputFile,
-                buttonRun
+                buttonRun, buttonBrowse
             });
 
             ToggleStatControls(false);
@@ -95,6 +97,11 @@ namespace LABA1_SortMethods.Frontend
             labelArrayType.Visible = show;
             textBoxStep.Visible = show;
             labelStep.Visible = show;
+            textBoxOutputFile.Visible = show;
+            labelOutput.Visible = show;
+            buttonBrowse.Visible = show;
+            labelSortMethod.Visible = !show;
+            comboBoxSortMethod1.Visible = !show;
         }
     }
 }

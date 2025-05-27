@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LABA1_SortMethods")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f02677d2b3872bd3dde02cdd8625b6fa1a6151e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77baf679b1bf04cb419c1f12ee7ae3535287402c")]
 [assembly: System.Reflection.AssemblyProductAttribute("LABA1_SortMethods")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LABA1_SortMethods")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

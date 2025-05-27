@@ -26,3 +26,4 @@ C:\DOTNET\AlgorithmsUniversity\LABA1_SortMethods\LABA1_SortMethods\obj\Debug\net
 C:\DOTNET\AlgorithmsUniversity\LABA1_SortMethods\LABA1_SortMethods\obj\Debug\net8.0-windows\LABA1_SortMethods.pdb
 C:\DOTNET\AlgorithmsUniversity\LABA1_SortMethods\LABA1_SortMethods\obj\Debug\net8.0-windows\LABA1_SortMethods.genruntimeconfig.cache
 C:\DOTNET\AlgorithmsUniversity\LABA1_SortMethods\LABA1_SortMethods\obj\Debug\net8.0-windows\ref\LABA1_SortMethods.dll
+C:\DOTNET\AlgorithmsUniversity\LABA1_SortMethods\LABA1_SortMethods\obj\Debug\net8.0-windows\LABA1_SortMethods.sourcelink.json

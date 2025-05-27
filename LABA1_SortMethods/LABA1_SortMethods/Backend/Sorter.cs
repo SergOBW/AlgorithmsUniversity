@@ -24,7 +24,7 @@ public static class Sorter
         }
     }
     
-    public static void SelectionSort(int[] array, out int comparisons, out int swaps)
+    private static void SelectionSort(int[] array, out int comparisons, out int swaps)
     {
         comparisons = 0;
         swaps = 0;
@@ -47,7 +47,7 @@ public static class Sorter
         }
     }
 
-    public static void BubbleSort(int[] array, out int comparisons, out int swaps)
+    private static void BubbleSort(int[] array, out int comparisons, out int swaps)
     {
         comparisons = 0;
         swaps = 0;
