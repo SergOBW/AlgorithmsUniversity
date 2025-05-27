@@ -45,8 +45,8 @@ namespace LABA1_SortMethods.Frontend
             try
             {
                 int size = int.Parse(textBoxArraySize.Text);
-                int min = int.Parse(textBoxMinValue.Text);
-                int max = int.Parse(textBoxMaxValue.Text);
+                int minValue = int.Parse(textBoxMinValue.Text);
+                int maxValue = int.Parse(textBoxMaxValue.Text);
 
                 if (size > MaxArraySize)
                 {
@@ -57,7 +57,7 @@ namespace LABA1_SortMethods.Frontend
                 if (radioButtonSingle.Checked)
                 {
                     var sortMethod = (SortMethod)comboBoxSortMethod1.SelectedItem;
-                    var array = ArrayGenerator.Generate(ArrayType.Random, size, min, max);
+                    var array = ArrayGenerator.Generate(ArrayType.Random, size, minValue, maxValue);
                     var arrayCopy = (int[])array.Clone();
 
                     var sw = Stopwatch.StartNew();
@@ -83,24 +83,13 @@ namespace LABA1_SortMethods.Frontend
                     File.WriteAllText(LastPathFile, outputFile);
 
                     // Запускаем сбор данных на бекенде (тяжёлая работа здесь)
-                    var data = BenchmarkRunner.CollectBenchmarkData(
-                        minSize: size,
-                        maxSize: size,
-                        step: step,
-                        minValue: min,
-                        maxValue: max,
-                        arrayType: arrayType);
+                    var data = BenchmarkRunner.CollectBenchmarkData(minSize: 0, maxSize: size, step: step, minValue: minValue, maxValue: maxValue, arrayType: arrayType);
 
-                    // Показываем результаты в отдельном окне (только просмотр)
                     using var previewForm = new ResultsPreviewForm(data);
                     if (previewForm.ShowDialog() == DialogResult.OK)
                     {
                         BenchmarkRunner.SaveToCsv(outputFile, data);
                         MessageBox.Show("Файл успешно сохранён:\n" + outputFile, "Готово");
-                    }
-                    else
-                    {
-                        MessageBox.Show("Сохранение отменено", "Отмена");
                     }
                 }
             }

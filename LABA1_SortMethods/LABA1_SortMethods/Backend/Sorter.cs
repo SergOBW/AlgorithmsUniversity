@@ -3,7 +3,7 @@
 public enum SortMethod
 {
     Bubble,
-    Selection
+    Selection,
 }
 
 
@@ -20,53 +20,57 @@ public static class Sorter
                 SelectionSort(array, out comparisons, out swaps);
                 break;
             default:
-                throw new ArgumentException("Неизвестный метод сортировки");
+                throw new ArgumentException("Неподдерживаемый метод сортировки для массива");
         }
     }
     
     private static void SelectionSort(int[] array, out int comparisons, out int swaps)
     {
-        comparisons = 0;
-        swaps = 0;
+        comparisons = 0; // Счётчик сравнений
+        swaps = 0;       // Счётчик перестановок
 
-        for (int i = 0; i < array.Length - 1; i++)
+        for (int i = 0; i < array.Length - 1; i++) // Проходим по всем элементам, кроме последнего
         {
-            int min = i;
-            for (int j = i + 1; j < array.Length; j++)
+            int min = i; // Считаем текущий элемент минимальным
+
+            for (int j = i + 1; j < array.Length; j++) // Ищем минимальный элемент в оставшейся части
             {
-                comparisons++;
+                comparisons++; // Сравнение текущего и минимального
                 if (array[j] < array[min])
-                    min = j;
+                    min = j; // Нашли новый минимум — запоминаем его индекс
             }
 
-            if (min != i)
+            if (min != i) // Если нашли элемент меньше текущего
             {
-                (array[i], array[min]) = (array[min], array[i]);
-                swaps++;
+                (array[i], array[min]) = (array[min], array[i]); // Меняем местами
+                swaps++; // Увеличиваем счётчик перестановок
             }
         }
     }
 
     private static void BubbleSort(int[] array, out int comparisons, out int swaps)
     {
-        comparisons = 0;
-        swaps = 0;
+        comparisons = 0; // Счётчик сравнений
+        swaps = 0;       // Счётчик перестановок
 
-        for (int i = 0; i < array.Length - 1; i++)
+        for (int i = 0; i < array.Length - 1; i++) // Проходим несколько "волн"
         {
-            bool swapped = false;
-            for (int j = 0; j < array.Length - i - 1; j++)
+            bool swapped = false; // Флаг, была ли хоть одна пере   становка
+
+            for (int j = 0; j < array.Length - i - 1; j++) // Проход по неотсортированной части
             {
-                comparisons++;
-                if (array[j] > array[j + 1])
+                comparisons++; // Каждое сравнение элементов
+
+                if (array[j] > array[j + 1]) // Если элементы в неправильном порядке
                 {
-                    (array[j], array[j + 1]) = (array[j + 1], array[j]);
-                    swaps++;
-                    swapped = true;
+                    (array[j], array[j + 1]) = (array[j + 1], array[j]); // Меняем местами
+                    swaps++; // Увеличиваем счётчик перестановок
+                    swapped = true; // Фиксируем, что была перестановка
                 }
             }
 
-            if (!swapped) break;
+            if (!swapped) break; // Если не было перестановок — массив уже отсортирован, выходим
         }
     }
+
 }

@@ -1,0 +1,15 @@
+C:\DOTNET\AlgorithmsUniversity\LABA2_FIleSortMethods\LABA2_FIleSortMethods\bin\Debug\net8.0-windows\LABA2_FIleSortMethods.exe
+C:\DOTNET\AlgorithmsUniversity\LABA2_FIleSortMethods\LABA2_FIleSortMethods\bin\Debug\net8.0-windows\LABA2_FIleSortMethods.deps.json
+C:\DOTNET\AlgorithmsUniversity\LABA2_FIleSortMethods\LABA2_FIleSortMethods\bin\Debug\net8.0-windows\LABA2_FIleSortMethods.runtimeconfig.json
+C:\DOTNET\AlgorithmsUniversity\LABA2_FIleSortMethods\LABA2_FIleSortMethods\bin\Debug\net8.0-windows\LABA2_FIleSortMethods.dll
+C:\DOTNET\AlgorithmsUniversity\LABA2_FIleSortMethods\LABA2_FIleSortMethods\bin\Debug\net8.0-windows\LABA2_FIleSortMethods.pdb
+C:\DOTNET\AlgorithmsUniversity\LABA2_FIleSortMethods\LABA2_FIleSortMethods\obj\Debug\net8.0-windows\LABA2_FIleSortMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\DOTNET\AlgorithmsUniversity\LABA2_FIleSortMethods\LABA2_FIleSortMethods\obj\Debug\net8.0-windows\LABA2_FIleSortMethods.AssemblyInfoInputs.cache
+C:\DOTNET\AlgorithmsUniversity\LABA2_FIleSortMethods\LABA2_FIleSortMethods\obj\Debug\net8.0-windows\LABA2_FIleSortMethods.AssemblyInfo.cs
+C:\DOTNET\AlgorithmsUniversity\LABA2_FIleSortMethods\LABA2_FIleSortMethods\obj\Debug\net8.0-windows\LABA2_FIleSortMethods.csproj.CoreCompileInputs.cache
+C:\DOTNET\AlgorithmsUniversity\LABA2_FIleSortMethods\LABA2_FIleSortMethods\obj\Debug\net8.0-windows\LABA2_FIleSortMethods.sourcelink.json
+C:\DOTNET\AlgorithmsUniversity\LABA2_FIleSortMethods\LABA2_FIleSortMethods\obj\Debug\net8.0-windows\LABA2_FIleSortMethods.dll
+C:\DOTNET\AlgorithmsUniversity\LABA2_FIleSortMethods\LABA2_FIleSortMethods\obj\Debug\net8.0-windows\refint\LABA2_FIleSortMethods.dll
+C:\DOTNET\AlgorithmsUniversity\LABA2_FIleSortMethods\LABA2_FIleSortMethods\obj\Debug\net8.0-windows\LABA2_FIleSortMethods.pdb
+C:\DOTNET\AlgorithmsUniversity\LABA2_FIleSortMethods\LABA2_FIleSortMethods\obj\Debug\net8.0-windows\LABA2_FIleSortMethods.genruntimeconfig.cache
+C:\DOTNET\AlgorithmsUniversity\LABA2_FIleSortMethods\LABA2_FIleSortMethods\obj\Debug\net8.0-windows\ref\LABA2_FIleSortMethods.dll
