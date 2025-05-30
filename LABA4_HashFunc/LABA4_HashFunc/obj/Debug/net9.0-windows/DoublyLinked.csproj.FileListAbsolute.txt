@@ -1,0 +1,15 @@
+C:\DOTNET\AlgorithmsUniversity\DoublyLinkedList\DoublyLinked\bin\Debug\net9.0-windows\DoublyLinked.exe
+C:\DOTNET\AlgorithmsUniversity\DoublyLinkedList\DoublyLinked\bin\Debug\net9.0-windows\DoublyLinked.deps.json
+C:\DOTNET\AlgorithmsUniversity\DoublyLinkedList\DoublyLinked\bin\Debug\net9.0-windows\DoublyLinked.runtimeconfig.json
+C:\DOTNET\AlgorithmsUniversity\DoublyLinkedList\DoublyLinked\bin\Debug\net9.0-windows\DoublyLinked.dll
+C:\DOTNET\AlgorithmsUniversity\DoublyLinkedList\DoublyLinked\bin\Debug\net9.0-windows\DoublyLinked.pdb
+C:\DOTNET\AlgorithmsUniversity\DoublyLinkedList\DoublyLinked\obj\Debug\net9.0-windows\DoublyLinked.GeneratedMSBuildEditorConfig.editorconfig
+C:\DOTNET\AlgorithmsUniversity\DoublyLinkedList\DoublyLinked\obj\Debug\net9.0-windows\DoublyLinked.AssemblyInfoInputs.cache
+C:\DOTNET\AlgorithmsUniversity\DoublyLinkedList\DoublyLinked\obj\Debug\net9.0-windows\DoublyLinked.AssemblyInfo.cs
+C:\DOTNET\AlgorithmsUniversity\DoublyLinkedList\DoublyLinked\obj\Debug\net9.0-windows\DoublyLinked.csproj.CoreCompileInputs.cache
+C:\DOTNET\AlgorithmsUniversity\DoublyLinkedList\DoublyLinked\obj\Debug\net9.0-windows\DoublyLinked.sourcelink.json
+C:\DOTNET\AlgorithmsUniversity\DoublyLinkedList\DoublyLinked\obj\Debug\net9.0-windows\DoublyLinked.dll
+C:\DOTNET\AlgorithmsUniversity\DoublyLinkedList\DoublyLinked\obj\Debug\net9.0-windows\refint\DoublyLinked.dll
+C:\DOTNET\AlgorithmsUniversity\DoublyLinkedList\DoublyLinked\obj\Debug\net9.0-windows\DoublyLinked.pdb
+C:\DOTNET\AlgorithmsUniversity\DoublyLinkedList\DoublyLinked\obj\Debug\net9.0-windows\DoublyLinked.genruntimeconfig.cache
+C:\DOTNET\AlgorithmsUniversity\DoublyLinkedList\DoublyLinked\obj\Debug\net9.0-windows\ref\DoublyLinked.dll

@@ -1,0 +1,15 @@
+C:\DOTNET\AlgorithmsUniversity\LABA4_HashFunc\LABA4_HashFunc\bin\Debug\net9.0-windows\LABA4_HashFunc.exe
+C:\DOTNET\AlgorithmsUniversity\LABA4_HashFunc\LABA4_HashFunc\bin\Debug\net9.0-windows\LABA4_HashFunc.deps.json
+C:\DOTNET\AlgorithmsUniversity\LABA4_HashFunc\LABA4_HashFunc\bin\Debug\net9.0-windows\LABA4_HashFunc.runtimeconfig.json
+C:\DOTNET\AlgorithmsUniversity\LABA4_HashFunc\LABA4_HashFunc\bin\Debug\net9.0-windows\LABA4_HashFunc.dll
+C:\DOTNET\AlgorithmsUniversity\LABA4_HashFunc\LABA4_HashFunc\bin\Debug\net9.0-windows\LABA4_HashFunc.pdb
+C:\DOTNET\AlgorithmsUniversity\LABA4_HashFunc\LABA4_HashFunc\obj\Debug\net9.0-windows\LABA4_HashFunc.GeneratedMSBuildEditorConfig.editorconfig
+C:\DOTNET\AlgorithmsUniversity\LABA4_HashFunc\LABA4_HashFunc\obj\Debug\net9.0-windows\LABA4_HashFunc.AssemblyInfoInputs.cache
+C:\DOTNET\AlgorithmsUniversity\LABA4_HashFunc\LABA4_HashFunc\obj\Debug\net9.0-windows\LABA4_HashFunc.AssemblyInfo.cs
+C:\DOTNET\AlgorithmsUniversity\LABA4_HashFunc\LABA4_HashFunc\obj\Debug\net9.0-windows\LABA4_HashFunc.csproj.CoreCompileInputs.cache
+C:\DOTNET\AlgorithmsUniversity\LABA4_HashFunc\LABA4_HashFunc\obj\Debug\net9.0-windows\LABA4_HashFunc.sourcelink.json
+C:\DOTNET\AlgorithmsUniversity\LABA4_HashFunc\LABA4_HashFunc\obj\Debug\net9.0-windows\LABA4_HashFunc.dll
+C:\DOTNET\AlgorithmsUniversity\LABA4_HashFunc\LABA4_HashFunc\obj\Debug\net9.0-windows\refint\LABA4_HashFunc.dll
+C:\DOTNET\AlgorithmsUniversity\LABA4_HashFunc\LABA4_HashFunc\obj\Debug\net9.0-windows\LABA4_HashFunc.pdb
+C:\DOTNET\AlgorithmsUniversity\LABA4_HashFunc\LABA4_HashFunc\obj\Debug\net9.0-windows\LABA4_HashFunc.genruntimeconfig.cache
+C:\DOTNET\AlgorithmsUniversity\LABA4_HashFunc\LABA4_HashFunc\obj\Debug\net9.0-windows\ref\LABA4_HashFunc.dll
